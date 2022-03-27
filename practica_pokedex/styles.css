@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    color: #555;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: #ecf0f3;
+}
+
+.title_text {
+    text-align: center;
+    color: #A93226;
+    font-size: 45px;
+    margin-top: 15px;
+}
+
+form {
+    width: 300px;
+    margin: 15px auto;
+}
+
+
+.poke-input {
+    border-radius: 25px;
+    background: #ecf0f3;
+    box-shadow: inset 10px 10px 20px #cbced1, inset -10px -10px 20px #ffffff;
+    margin-bottom: 25px;
+}
+
+input {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+
+.poke-card {
+    position: relative;
+    height: fit-content;
+    max-width: 300px;
+    border-radius: 5px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    /* background-color: #ecf0f3; */
+    /* border: 1px solid black; */
+    box-shadow: 10px 10px 20px #cbced1, -10px -10px 20px #ffffff;
+}
+
+.poke_title {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+.img-container {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px #ecf0f3, 0px 0px 0px 5px #ecf0f3,
+    10px 10px 20px #a7aaaf, -10px -10px 20px #ffffff;
+}
+
+.poke-id { 
+    margin-top: 30px;
+}
+
+
+.poke-stats {
+    margin: 30px auto 20px;
+}
+
+.poke-stats section {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    /* font-size: 18px;
+    font-weight: 700; */
+    margin: 15px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #cbced1, -5px -5px 10px #ffffff;
+    
+}
+
+.poke-stats div {
+    /* display: flex;
+    justify-content: space-between;
+    align-content: space-between; */
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.poke-types div {
+    font-weight: 700;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #cbced1, -5px -5px 10px #ffffff;
+}
+
+.poke-img {
+    width: 180px;
+    border-radius: 50%;
+    background-color: #ecf0f3;
+}
